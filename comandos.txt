@@ -25,3 +25,8 @@ Chegou a hora de você pôr em prática o que foi visto na aula. Para isso, exec
 11) Execute git status e verifique que o arquivo ide-config não está na lista para ser adicionado;
 
 12) Adicione (com git add .gitignore) e realize o commit (com git commit -m "Adicionando .gitignore") o arquivo .gitignore.
+
+
+git push [repositorio] master
+
+Alternativa correta! Desta forma, nós enviamos as alterações em nosso branch master (falaremos mais sobre branches já já) para o repositório remoto. Basta substituir [repositorio] pelo nome que demos ao repositório ao adicioná-lo. Já para trazer os dados que estiverem no repositório remoto, podemos utilizar o git pull [repositorio] master.
